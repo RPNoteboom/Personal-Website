@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <title>Temperature Converter</title>
+   <script src="JavaScript/convert.js"></script>
+   <style>
+      body {
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      label {
+         display: block;
+      }
+
+      #errorMessage {
+         color: red;
+      }
+   </style>
+   
+   <body>
+        <h1>Temperature Converter</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Assignment2.html">Assignment 2</a>
+            <a href="Assignment3.html">Assignment 3</a>
+            <a href="Assignment4-1.html">Temperature Converter</a>
+            <a href="Assignment4-2.html">Tic-Tac-Toe</a>
+       </nav>
+       <p>
+           <label for="cInput">Celsius:</label>
+           <input id="cInput" type="text">
+       </p>
+       <p>
+           <label for="fInput">Fahrenheit:</label>
+           <input id="fInput" type="text">
+       </p>
+       <input id="convertButton" type="button" value="Convert">
+       <div id="errorMessage">
+        
+       </div>
+        
+       <p>
+           <img id="weatherImage" src="images/warm.png" alt="Warm">
+       </p>
+   </body>
+
+</html>

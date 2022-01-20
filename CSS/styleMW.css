@@ -1,0 +1,50 @@
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+body {
+    background-color: skyblue;
+    font-size: 1vw;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    position: relative;
+}
+
+/* Text over image */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:link { /* unvisited */ 
+    color: black;
+}
+
+a:visited {
+    color: midnightblue;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+table {
+    border: 1px solid black;
+}
